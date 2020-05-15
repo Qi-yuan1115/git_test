@@ -7,12 +7,13 @@ using namespace std;
 int main22()
 {
 char buffer[20];
-//memset(buffer, 0, sizeof(char) * 20);
+
 memcpy(buffer, "123", 3);
 
 for (int i = 0; i < 20; i++)
 	cout << buffer[i] << endl;
-
+//添加的文章
+//第二次添加 文档
 
 //////////////////测试menset的作用///////////////////
 	char buffer1[20];
