@@ -9,6 +9,9 @@ typedef struct __double_list
 	struct __double_list *next;
 }DL;
 
+
+
+
 //创建双向链表并插入一个节点 
 DL *create_dl_node(int data)
 {
